@@ -1,8 +1,8 @@
-Movie Ticket Booking System
+## Movie Ticket Booking System
 
 A simple Java-based Movie Ticket Booking System that uses SQLite and JDBC to manage movies, theatres, shows, customers, seats, and ticket bookings through a console-based interface.
 
-Features
+# Features
 Add and view movies
 Manage theatres
 Create and view movie shows
@@ -19,7 +19,7 @@ JDBC
 SQLite
 SQL
 IntelliJ IDEA
-Project Structure
+#Project Structure
 src/
 ├── Main.java
 │
@@ -39,7 +39,7 @@ src/
 
 lib/
 └── sqlite-jdbc-3.53.4.0.jar
-Architecture
+# Architecture
 
 The project uses a simple structure without unnecessary DAO or Service layers.
 
@@ -71,7 +71,7 @@ Bookings
 
 The database is initialized automatically when the application starts.
 
-How to Run
+# How to Run
 1. Clone the Repository
 git clone <your-repository-url>
 2. Open the Project
@@ -113,10 +113,6 @@ Purpose
 
 This project demonstrates the practical use of Java, Object-Oriented Programming, JDBC, SQL, and database management by building a simple real-world movie ticket booking application.
 
-Author
+# Author
 
 Sameer Ranjan
-
-License
-
-This project is available for educational and learning purposes.
