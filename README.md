@@ -78,4 +78,45 @@ git clone <your-repository-url>
 
 Open the project in IntelliJ IDEA.
 
-3
+3. Add SQLite JDBC
+
+Make sure the SQLite JDBC JAR is added to the project libraries:
+
+lib/sqlite-jdbc-3.53.4.0.jar
+
+In IntelliJ IDEA:
+
+File → Project Structure → Libraries → + → Java
+
+Select the SQLite JAR and apply the changes.
+
+4. Run the Application
+
+Run:
+
+src/Main.java
+
+The application will display the main menu:
+
+=== MOVIE TICKET BOOKING ===
+
+1. Movies
+2. Theatres
+3. Shows
+4. Customers
+5. Seats
+6. Book Ticket
+7. Cancel Booking
+8. View Bookings
+9. Exit
+Purpose
+
+This project demonstrates the practical use of Java, Object-Oriented Programming, JDBC, SQL, and database management by building a simple real-world movie ticket booking application.
+
+Author
+
+Sameer Ranjan
+
+License
+
+This project is available for educational and learning purposes.
