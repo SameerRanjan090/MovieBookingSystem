@@ -19,7 +19,7 @@ JDBC
 SQLite
 SQL
 IntelliJ IDEA
-#Project Structure
+# Project Structure
 src/
 ├── Main.java
 │
